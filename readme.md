@@ -69,12 +69,17 @@ I have assumed Windows as the operating system (OS) for this guide.
     Going through the terminal will not open the directory in your VS Code Workspace (whereas the UI approach will). I loaded up the cloned repo by opening folder and navigating to the location I cloned it to.
     
     ![Opening the cloned repo folder in the VS Code explorer](docs/vs_code_explorer.png)
-    
-- If you want the UI approach (expand here)
+
+<details>    
+<summary> If you want the UI approach (expand here) </summary>
     
     In the explorer tab (first option on the left hand banner) click the top option and then the Clone Repository button (cloning the empty GitHub Repo we made onto our local machine).
     
     1. Search for the repository in the search bar if required and then select it and pick its local destination (Navigate to the folder you created to hold all python projects).
+</details>
+
+## Your First Commits
+
 1. Now we are ready to work on the repository itself - we can see which Git Branch we are working on by typing `git branch` into the terminal, alternatively it might show in the bottom left corner of the UI.
 2. Lets add some sub directories aligned to python best practice, a `.gitignore` file to make sure that we are only sending things we are comfortable being in public to GitHub, and finally a virtual environment (which I will explain next)
 3. In the explorer pane right click and add a file called `.gitignore` . In that file add (for the moment):
